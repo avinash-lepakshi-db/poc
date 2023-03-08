@@ -6,7 +6,6 @@ from airflow.operators.dummy_operator import DummyOperator
 from datetime import datetime
 import os
 
-os.environ['GOOGLE_APPLICATION_CREDENTIALS']='prefab-shape-376611-01e4d96b8895.json'
 
 # from bq_handler import BQ_HANDLER
 # from sftp_handler import IO_HANDLER
